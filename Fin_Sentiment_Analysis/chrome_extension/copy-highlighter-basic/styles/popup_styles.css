@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, 'Segoe UI', Tahoma, Verdana;
+}
+
+.container {
+    width: 230px;
+    height: 350px;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    overflow-y: scroll;
+}
+
+h1.heading {
+    padding: 8px 12px;
+}
+.highlight {
+    margin: 8px 12px;
+    padding: 8px 12px;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+button {
+    padding: 8px 12px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
